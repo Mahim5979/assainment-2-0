@@ -51,6 +51,11 @@
 
 }
 
+.hamburger-menu{
+    display: flex;
+    display: none;
+}
+
 .nav-menu{
     list-style: none;
     display: flex;
@@ -325,3 +330,102 @@ main{
     gap: 0.5rem;
     align-items: center;
 }
+
+/* for mobile  */
+
+@media screen and (max-width: 576px){
+    .navbar{
+        flex-direction: row;
+
+    }
+    
+
+    .logo{
+        display: inline-flex;
+        margin-right: 19rem;
+        margin-left: -10rem;
+
+    }
+
+    .hamburger-menu{
+        display: inline;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+    
+    .navbar .nav-menu,.btn {
+        display: none;
+    
+    }
+
+    #about .about-container{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2.5rem;
+        margin-left: -3rem;
+
+    }
+
+    #about .about-title h3{
+        font-size: 2rem;
+        margin: 0px;
+        padding: 0px;
+
+    }
+
+    #techwave-container{
+        padding: 4rem 2rem;
+    }
+
+    .techwave-card-container{
+        gap: 2rem;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    #techwave-container h2{
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 2.5rem;
+    }
+
+    #featured-container{
+        padding: 4rem 6rem;
+
+    }
+
+    #featured-container h3{
+        font-size: 2rem;
+        margin-bottom: 2.5rem;
+        text-align: center;
+    }
+
+    .featured-episodes{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+        width: 100%;
+        max-width: 100rem;
+        margin-bottom: 4rem;
+
+    }
+
+    .host-contant{
+        flex-direction: column;
+        gap: 1.5rem;
+        padding: 1rem;
+        text-align: center;
+
+}
+
+    .host-contant h4{
+        font-size: 1.5rem;
+        padding-bottom: 1rem;
+    }   
+
+    .host-contant p{
+        font-size: 0.8rem;
+    }
+
+
+}
+  
