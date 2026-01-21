@@ -71,6 +71,7 @@
     color:#FB09B4;
 }
 
+
 main{
     background: url(../imags/hero-bg.png);
     background-repeat: no-repeat;
@@ -83,6 +84,7 @@ main{
 #banner{
     padding: 100px 525px;
 }
+
 
 #banner .banner-image-1{
     padding-left: 5.6rem;
@@ -113,6 +115,10 @@ main{
     gap: 0.5rem;
     margin-top: 1.5rem;
 }     
+
+.banner-button img{
+    padding-right: 0.5rem;
+}
 
 #about{
     background-color:#1A0B2E;
@@ -201,10 +207,9 @@ main{
     padding-bottom: 1rem;
 }
 
-.unic-icon{
-    border: 0.5rem solid #ee5108c2;
-    padding: 1rem 2rem;
-    margin-bottom: 1rem;
+.unic-icon img{
+    height: 4.5rem;
+    width: 3.75rem;
 }
 
 #featured-container{
@@ -235,6 +240,12 @@ main{
     box-shadow: 5px 5px 8px #fb09b267;
     border-radius: 30px;
     padding-bottom: 1.5rem;
+    width: 23.75rem;
+}
+
+.featured-card iframe{
+    width: 100%;
+    border-radius: 30px;
 }
 
 .featured-card h4{
@@ -283,4 +294,34 @@ main{
     margin-right: 0.5rem;
 }
 
+#footer-contant{
+    background: url(../imags/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 100%;
+    max-width: 1600px;
+    color: #FFFFFF;
+    text-align: center;
+    height: 25.75rem;
+    padding: 7.5rem;
 
+}
+
+#footer-contant h1{
+    font-size: 4rem;
+    margin: 0rem;
+}
+
+.footer-icon{
+    display: flex;
+    gap: 2.5rem;
+    justify-content: center;
+    padding: 1.5rem 0rem;
+
+}
+
+.footer-icon-box{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
